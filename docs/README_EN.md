@@ -1,5 +1,5 @@
 <p align="center">
-# OAuth 2.0 LAB
+<h1 align="center">OAuth 2.0 LAB</h1>
 </p>
 <p align="center">
   <a href="https://github.com/murphy08/oauth2-lab/stargazers">
@@ -22,6 +22,7 @@
 <p align="center">
 
 <a href="#">English</a> | <a href="../README.md">中文</a>
+
 </p>
 
 </div>
