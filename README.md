@@ -213,3 +213,7 @@ oauth2-lab scan --url=http://localhost:8000
 ### 开源协议
 
 本项目采用 [MIT License](LICENSE)。
+
+## 点赞历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Murphy08/oauth2-lab&type=date&legend=top-left)](https://www.star-history.com/#Murphy08/oauth2-lab&type=date&legend=top-left)

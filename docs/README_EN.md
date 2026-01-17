@@ -19,14 +19,15 @@
   </a>
 </p>
 
-
 <p align="center">
 
-<a href="#">English</a> | <a href="../README.md">中文</a>
+`<a href="#">`English`</a>` | `<a href="../README.md">`中文`</a>`
 
 </p>
 
 </div>
+## The project is not yet complete.
+
 ## The project is not yet complete.
 
 If you encounter bugs in some features, please submit them via **Issues** .
@@ -215,3 +216,7 @@ This project is licensed under the [MIT License](../LICENSE).
 ## Acknowledgments
 
 Thanks to all contributors who have helped make this project better!
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Murphy08/oauth2-lab&type=date&legend=top-left)](https://www.star-history.com/#Murphy08/oauth2-lab&type=date&legend=top-left)
