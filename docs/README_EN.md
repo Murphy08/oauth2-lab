@@ -1,12 +1,14 @@
+<div align="center">
 # OAuth 2.0 LAB
 
 [![GitHub stars](https://img.shields.io/github/stars/murphy08/oauth2-lab?style=social)](https://github.com/murphy08/oauth2-lab/stargazers)[![GitHub forks](https://img.shields.io/github/forks/murphy08/oauth2-lab?style=social)](https://github.com/murphy08/oauth2-lab/network/members)[![GitHub issues](https://img.shields.io/github/issues/murphy08/oauth2-lab)](https://github.com/murphy08/oauth2-lab/issues)[![GitHub license](https://img.shields.io/github/license/murphy08/oauth2-lab)](https://github.com/murphy08/oauth2-lab/blob/main/LICENSE)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/murphy08/oauth2-lab/pulls)
 
 [English](#english-documentation) | [中文](../README.md)
 
+</div>
 ## The project is not yet complete.
 
-If you encounter bugs in some features, please submit them via  **Issues** .
+If you encounter bugs in some features, please submit them via **Issues** .
 
 ## Introduction
 

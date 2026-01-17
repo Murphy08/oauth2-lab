@@ -1,8 +1,16 @@
+<div align="center">
+
 # OAuth 2.0 LAB | OAuth 2.0 实验室
 
-[![GitHub stars](https://img.shields.io/github/stars/murphy08/oauth2-lab?style=social)](https://github.com/murphy08/oauth2-lab/stargazers)[![GitHub forks](https://img.shields.io/github/forks/murphy08/oauth2-lab?style=social)](https://github.com/murphy08/oauth2-lab/network/members)[![GitHub issues](https://img.shields.io/github/issues/murphy08/oauth2-lab)](https://github.com/murphy08/oauth2-lab/issues)[![GitHub license](https://img.shields.io/github/license/murphy08/oauth2-lab)](https://github.com/murphy08/oauth2-lab/blob/main/LICENSE)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/murphy08/oauth2-lab/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/murphy08/oauth2-lab?style=social)](https://github.com/murphy08/oauth2-lab/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/murphy08/oauth2-lab?style=social)](https://github.com/murphy08/oauth2-lab/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/murphy08/oauth2-lab)](https://github.com/murphy08/oauth2-lab/issues)
+[![GitHub license](https://img.shields.io/github/license/murphy08/oauth2-lab)](https://github.com/murphy08/oauth2-lab/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/murphy08/oauth2-lab/pulls)
 
 [中文](#中文文档) | [English](#english-documentation)
+
+</div>
 
 ---
 
