@@ -2,22 +2,23 @@
 <h1 align="center">OAuth 2.0 LAB</h1>
 </p>
 <p align="center">
-  <a href="https://github.com/murphy08/oauth2-lab/stargazers">
+  <a href="https://github.com/murphy08/oauth2-lab/stargazers" style="margin-right: 8px;">
     <img src="https://img.shields.io/github/stars/murphy08/oauth2-lab?style=social" />
   </a>
-  <a href="https://github.com/murphy08/oauth2-lab/network/members">
+  <a href="https://github.com/murphy08/oauth2-lab/network/members" style="margin-right: 8px;">
     <img src="https://img.shields.io/github/forks/murphy08/oauth2-lab?style=social" />
   </a>
-  <a href="https://github.com/murphy08/oauth2-lab/issues">
+  <a href="https://github.com/murphy08/oauth2-lab/issues" style="margin-right: 8px;">
     <img src="https://img.shields.io/github/issues/murphy08/oauth2-lab" />
   </a>
-  <a href="https://github.com/murphy08/oauth2-lab/blob/main/LICENSE">
+  <a href="https://github.com/murphy08/oauth2-lab/blob/main/LICENSE" style="margin-right: 8px;">
     <img src="https://img.shields.io/github/license/murphy08/oauth2-lab" />
   </a>
   <a href="https://github.com/murphy08/oauth2-lab/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
   </a>
 </p>
+
 
 <p align="center">
 
