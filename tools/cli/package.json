@@ -1,0 +1,20 @@
+{
+  "name": "oauth2-lab-cli",
+  "version": "1.0.0",
+  "description": "OAuth2 Lab CLI Tool",
+  "bin": {
+    "oauth2-lab": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

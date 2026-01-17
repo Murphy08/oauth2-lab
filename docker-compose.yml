@@ -1,0 +1,118 @@
+version: '3.8'
+
+services:
+  # Frontend - Next.js Web Application
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./apps/web:/app
+      - /app/node_modules
+    depends_on:
+      - java-server
+      - python-server
+      - nodejs-server
+      - php-server
+      - go-server
+
+  # Java Spring Boot Server
+  java-server:
+    build:
+      context: ./servers/java
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - DATABASE_URL=jdbc:sqlite:./data/oauth2.db
+    volumes:
+      - ./servers/java:/app
+      - java-data:/app/data
+
+  # Python FastAPI Server
+  python-server:
+    build:
+      context: ./servers/python
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - DATABASE_URL=sqlite:///./data/oauth2.db
+    volumes:
+      - ./servers/python:/app
+      - python-data:/app/data
+
+  # Node.js Express Server
+  nodejs-server:
+    build:
+      context: ./servers/nodejs
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=./data/oauth2.db
+    volumes:
+      - ./servers/nodejs:/app
+      - /app/node_modules
+      - nodejs-data:/app/data
+
+  # PHP Laravel/Slim Server
+  php-server:
+    build:
+      context: ./servers/php
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      - APP_ENV=development
+      - DATABASE_URL=sqlite:///app/data/oauth2.db
+    volumes:
+      - ./servers/php:/app
+      - php-data:/app/data
+
+  # Go Gin Server
+  go-server:
+    build:
+      context: ./servers/go
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      - GO_ENV=development
+      - DATABASE_URL=./data/oauth2.db
+    volumes:
+      - ./servers/go:/app
+      - go-data:/app/data
+
+  # Security Scanner Tool
+  security-scanner:
+    build:
+      context: ./tools/security-scanner
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - SCANNER_ENV=development
+    volumes:
+      - ./tools/security-scanner:/app
+      - scanner-reports:/app/reports
+
+volumes:
+  java-data:
+  python-data:
+  nodejs-data:
+  php-data:
+  go-data:
+  scanner-reports:
+
+networks:
+  default:
+    name: oauth2-lab-network
+
